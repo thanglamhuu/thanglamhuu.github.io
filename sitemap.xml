@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://thanglamhuu.github.io/taiChinhBlog/posts/myseo/</loc>
+    <loc>https://thanglamhuu.github.io/posts/myseo/</loc>
     <lastmod>2019-01-28T11:41:26+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://thanglamhuu.github.io/taiChinhBlog/categories/</loc>
+    <loc>https://thanglamhuu.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thanglamhuu.github.io/taiChinhBlog/</loc>
-    <lastmod>2019-01-28T11:41:26+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://thanglamhuu.github.io/taiChinhBlog/tags/lam/</loc>
+    <loc>https://thanglamhuu.github.io/</loc>
     <lastmod>2019-01-28T11:41:26+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thanglamhuu.github.io/taiChinhBlog/posts/</loc>
+    <loc>https://thanglamhuu.github.io/tags/lam/</loc>
     <lastmod>2019-01-28T11:41:26+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thanglamhuu.github.io/taiChinhBlog/tags/seo/</loc>
+    <loc>https://thanglamhuu.github.io/posts/</loc>
     <lastmod>2019-01-28T11:41:26+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://thanglamhuu.github.io/taiChinhBlog/tags/</loc>
+    <loc>https://thanglamhuu.github.io/tags/seo/</loc>
+    <lastmod>2019-01-28T11:41:26+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://thanglamhuu.github.io/tags/</loc>
     <lastmod>2019-01-28T11:41:26+07:00</lastmod>
     <priority>0</priority>
   </url>

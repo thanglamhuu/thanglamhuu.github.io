@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Khỏi nghiệp blog</title>
-    <link>https://thanglamhuu.github.io/taiChinhBlog/tags/</link>
+    <link>https://thanglamhuu.github.io/tags/</link>
     <description>Recent content in Tags on Khỏi nghiệp blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Jan 2019 11:41:26 +0700</lastBuildDate>
     
-	<atom:link href="https://thanglamhuu.github.io/taiChinhBlog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thanglamhuu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lam</title>
-      <link>https://thanglamhuu.github.io/taiChinhBlog/tags/lam/</link>
+      <link>https://thanglamhuu.github.io/tags/lam/</link>
       <pubDate>Mon, 28 Jan 2019 11:41:26 +0700</pubDate>
       
-      <guid>https://thanglamhuu.github.io/taiChinhBlog/tags/lam/</guid>
+      <guid>https://thanglamhuu.github.io/tags/lam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Seo</title>
-      <link>https://thanglamhuu.github.io/taiChinhBlog/tags/seo/</link>
+      <link>https://thanglamhuu.github.io/tags/seo/</link>
       <pubDate>Mon, 28 Jan 2019 11:41:26 +0700</pubDate>
       
-      <guid>https://thanglamhuu.github.io/taiChinhBlog/tags/seo/</guid>
+      <guid>https://thanglamhuu.github.io/tags/seo/</guid>
       <description></description>
     </item>
     

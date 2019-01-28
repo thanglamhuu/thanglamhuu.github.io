@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Khỏi nghiệp blog</title>
-    <link>https://thanglamhuu.github.io/taiChinhBlog/</link>
+    <link>https://thanglamhuu.github.io/</link>
     <description>Recent content on Khỏi nghiệp blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Jan 2019 11:41:26 +0700</lastBuildDate>
     
-	<atom:link href="https://thanglamhuu.github.io/taiChinhBlog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://thanglamhuu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My SEO</title>
-      <link>https://thanglamhuu.github.io/taiChinhBlog/posts/myseo/</link>
+      <link>https://thanglamhuu.github.io/posts/myseo/</link>
       <pubDate>Mon, 28 Jan 2019 11:41:26 +0700</pubDate>
       
-      <guid>https://thanglamhuu.github.io/taiChinhBlog/posts/myseo/</guid>
+      <guid>https://thanglamhuu.github.io/posts/myseo/</guid>
       <description>My SEO Muc 1 sdf
 Muc 2 sd fghd d</description>
     </item>
