@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li class="current-song"><a href="KinhDaiThuaVoLuongTho/DTVLT_01_NguyenHuong.mp3">DTVLT_01_NguyenHuong</a></li>
+        <li><a href="KinhDaiThuaVoLuongTho/DTVLT_02_TanPhat.mp3">DTVLT_02_TanPhat</a></li>
+        <li><a href="KinhDaiThuaVoLuongTho/DTVLT_03_DanhLe.mp3">DTVLT_03_DanhLe</a></li>
+        <li><a href="KinhDaiThuaVoLuongTho/DTVLT_04_KhaiKinh.mp3">DTVLT_04_KhaiKinh</a></li>
+        <li><a href="KinhDaiThuaVoLuongTho/DTVLT_06_PhamThu6.mp3">DTVLT_06_PhamThu6</a></li>
+        <li><a href="KinhDaiThuaVoLuongTho/DTVLT_08_PhamThu32_37.mp3">DTVLT_08_PhamThu32_37</a></li>
+        <li><a href="KinhDaiThuaVoLuongTho/DTVLT_08_PhamThu_PhucNguyenHoiHuong.mp3">DTVLT_09_PhamThu_PhucNguyenHoiHuong</a></li>
+        <li><a href=""></a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
