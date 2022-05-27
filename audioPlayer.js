@@ -3,10 +3,11 @@
             $("#audioPlayer")[0].src = $("#playlist li a")[0];
             $("#audioPlayer")[0].play();
             $("#playlist li a").click(function(e){
-               e.preventDefault(); 
-               $("#audioPlayer")[0].src = this;
-               $("#audioPlayer")[0].play();
-               $("#playlist li").removeClass("current-song");
+                e.preventDefault(); 
+                $("#audioPlayer")[0].src = this;
+                $("#audioPlayer")[0].play();
+                $("#audioPlayer")[0].playbackRate = 0.75;
+                $("#playlist li").removeClass("current-song");
                 currentSong = $(this).parent().index();
                 $(this).parent().addClass("current-song");
             });
