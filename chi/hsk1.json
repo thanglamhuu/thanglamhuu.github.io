@@ -1,0 +1,978 @@
+[
+  {
+    "id": "hsk1_1",
+    "chuHan": "爱",
+    "bacKinh": "ài",
+    "nghiaViet": "yêu, thích",
+    "viDuChuHan": "我爱妈妈。",
+    "viDuNghia": "Tôi yêu mẹ."
+  },
+  {
+    "id": "hsk1_2",
+    "chuHan": "爱好",
+    "bacKinh": "àihào",
+    "nghiaViet": "sở thích",
+    "viDuChuHan": "我的爱好是看书。",
+    "viDuNghia": "Sở thích của tôi là đọc sách."
+  },
+  {
+    "id": "hsk1_3",
+    "chuHan": "八",
+    "bacKinh": "bā",
+    "nghiaViet": "số 8",
+    "viDuChuHan": "我有八个杯子。",
+    "viDuNghia": "Tôi có 8 cái cốc."
+  },
+  {
+    "id": "hsk1_4",
+    "chuHan": "爸爸｜爸",
+    "bacKinh": "bàba｜bà",
+    "nghiaViet": "bố, ba, cha",
+    "viDuChuHan": "我爸爸是医生。",
+    "viDuNghia": "Bố tôi là bác sĩ."
+  },
+  {
+    "id": "hsk1_5",
+    "chuHan": "吧",
+    "bacKinh": "ba",
+    "nghiaViet": "nào, nhé, chứ, đi (trợ từ)",
+    "viDuChuHan": "我们明天去图书馆吧。",
+    "viDuNghia": "Ngày mai chúng ta đi thư viện nhé."
+  },
+  {
+    "id": "hsk1_6",
+    "chuHan": "白",
+    "bacKinh": "bái",
+    "nghiaViet": "trắng",
+    "viDuChuHan": "她今天穿白裙子。",
+    "viDuNghia": "Hôm nay cô ấy mặc váy trắng."
+  },
+  {
+    "id": "hsk1_7",
+    "chuHan": "白天",
+    "bacKinh": "báitiān",
+    "nghiaViet": "ban ngày",
+    "viDuChuHan": "我白天没有时间，晚上再去吧。",
+    "viDuNghia": "Buổi sáng tôi không có thời gian, để buổi tối đi nhé."
+  },
+  {
+    "id": "hsk1_8",
+    "chuHan": "百",
+    "bacKinh": "bǎi",
+    "nghiaViet": "một trăm",
+    "viDuChuHan": "我们班有一百个学生",
+    "viDuNghia": "Lớp chúng tôi có 100 học sinh."
+  },
+  {
+    "id": "hsk1_9",
+    "chuHan": "班",
+    "bacKinh": "bān",
+    "nghiaViet": "lớp",
+    "viDuChuHan": "你是哪个班的学生？",
+    "viDuNghia": "Bạn là học sinh lớp nào thế?"
+  },
+  {
+    "id": "hsk1_10",
+    "chuHan": "半",
+    "bacKinh": "bàn",
+    "nghiaViet": "một nửa",
+    "viDuChuHan": "我只喝了半瓶水。",
+    "viDuNghia": "Tôi chỉ uống nửa chai nước."
+  },
+  {
+    "id": "hsk1_11",
+    "chuHan": "半年",
+    "bacKinh": "bàn nián",
+    "nghiaViet": "nửa năm",
+    "viDuChuHan": "他已经来中国半年了。",
+    "viDuNghia": "Anh ấy đến Trung Quốc nửa năm rồi."
+  },
+  {
+    "id": "hsk1_12",
+    "chuHan": "半天",
+    "bacKinh": "bàn tiān",
+    "nghiaViet": "nửa ngày",
+    "viDuChuHan": "我想了半天还没想出来。",
+    "viDuNghia": "Tôi nghĩ cả nửa ngày mà vẫn chưa nghĩ ra."
+  },
+  {
+    "id": "hsk1_13",
+    "chuHan": "帮",
+    "bacKinh": "bāng",
+    "nghiaViet": "giúp đỡ",
+    "viDuChuHan": "能不能帮我买点儿东西？",
+    "viDuNghia": "Có thể giúp tôi mua chút đồ được không?"
+  },
+  {
+    "id": "hsk1_14",
+    "chuHan": "帮忙",
+    "bacKinh": "bāng//máng",
+    "nghiaViet": "giúp đỡ",
+    "viDuChuHan": "你需要我帮忙吗？",
+    "viDuNghia": "Bạn có cần tôi giúp gì không?"
+  },
+  {
+    "id": "hsk1_15",
+    "chuHan": "包",
+    "bacKinh": "bāo",
+    "nghiaViet": "bao, cái túi; gói, bọc",
+    "viDuChuHan": "手机在书包里。",
+    "viDuNghia": "Điện thoại ở trong túi xách (cặp sách)."
+  },
+  {
+    "id": "hsk1_16",
+    "chuHan": "包子",
+    "bacKinh": "bāozi",
+    "nghiaViet": "bánh bao",
+    "viDuChuHan": "这个包子很好吃。",
+    "viDuNghia": "Cái bánh bao này rất ngon."
+  },
+  {
+    "id": "hsk1_17",
+    "chuHan": "杯",
+    "bacKinh": "bēi",
+    "nghiaViet": "cốc, ly",
+    "viDuChuHan": "请给我一杯水。",
+    "viDuNghia": "Làm ơn hãy lấy cho tôi một cốc nước."
+  },
+  {
+    "id": "hsk1_18",
+    "chuHan": "杯子",
+    "bacKinh": "bēizi",
+    "nghiaViet": "cốc, chén, ly",
+    "viDuChuHan": "这个杯子真好看",
+    "viDuNghia": "Cái cốc này thật đẹp."
+  },
+  {
+    "id": "hsk1_19",
+    "chuHan": "北",
+    "bacKinh": "běi",
+    "nghiaViet": "bắc",
+    "viDuChuHan": "你是北方人吗？",
+    "viDuNghia": "Bạn là người miền Bắc à?"
+  },
+  {
+    "id": "hsk1_20",
+    "chuHan": "北边",
+    "bacKinh": "běibiān",
+    "nghiaViet": "phía Bắc",
+    "viDuChuHan": "超市在车站的北边。",
+    "viDuNghia": "Siêu thị nằm ở phía bắc của bến xe."
+  },
+  {
+    "id": "hsk1_21",
+    "chuHan": "北京",
+    "bacKinh": "Běijīng",
+    "nghiaViet": "Bắc Kinh",
+    "viDuChuHan": "北京今天下雨吗？",
+    "viDuNghia": "Hôm nay Bắc Kinh có mưa không?"
+  },
+  {
+    "id": "hsk1_22",
+    "chuHan": "本",
+    "bacKinh": "běn",
+    "nghiaViet": "cuốn, quyển, tập",
+    "viDuChuHan": "我想买一本书。",
+    "viDuNghia": "Tôi muốn mua một quyển sách"
+  },
+  {
+    "id": "hsk1_23",
+    "chuHan": "本子",
+    "bacKinh": "běn zi",
+    "nghiaViet": "vở, cuốn vở",
+    "viDuChuHan": "这个本子是我的。",
+    "viDuNghia": "Quyển vở này là của tôi."
+  },
+  {
+    "id": "hsk1_24",
+    "chuHan": "比",
+    "bacKinh": "bǐ",
+    "nghiaViet": "so, so với",
+    "viDuChuHan": "他比我大一岁。",
+    "viDuNghia": "Anh ấy lớn hơn tôi một tuổi."
+  },
+  {
+    "id": "hsk1_25",
+    "chuHan": "别",
+    "bacKinh": "bié",
+    "nghiaViet": "đừng, không được",
+    "viDuChuHan": "明天别迟到了。",
+    "viDuNghia": "Ngày mai đừng đến muộn nữa."
+  },
+  {
+    "id": "hsk1_26",
+    "chuHan": "别的",
+    "bacKinh": "biéde",
+    "nghiaViet": "cái khác",
+    "viDuChuHan": "这件衣服还有别的颜色吗？",
+    "viDuNghia": "Bộ quần áo này còn có màu khác không?"
+  },
+  {
+    "id": "hsk1_27",
+    "chuHan": "别人",
+    "bacKinh": "bié·rén",
+    "nghiaViet": "người khác, người ta",
+    "viDuChuHan": "这本词典是别人的，不是我的。",
+    "viDuNghia": "Quyển từ điển này là của người khác, không phải là của tôi."
+  },
+  {
+    "id": "hsk1_28",
+    "chuHan": "病",
+    "bacKinh": "bìng",
+    "nghiaViet": "bệnh",
+    "viDuChuHan": "她说她病了，今天不能上课。",
+    "viDuNghia": "Cô ấy nói cô ấy bị ốm rồi, hôm nay không thể lên lớp."
+  },
+  {
+    "id": "hsk1_29",
+    "chuHan": "病人",
+    "bacKinh": "bìngrén",
+    "nghiaViet": "bệnh nhân",
+    "viDuChuHan": "医院里有很多病人。",
+    "viDuNghia": "Trong bệnh viện có rất nhiều bệnh nhân."
+  },
+  {
+    "id": "hsk1_30",
+    "chuHan": "不大",
+    "bacKinh": "bú dà",
+    "nghiaViet": "nhỏ, không lớn",
+    "viDuChuHan": "这个房间不大",
+    "viDuNghia": "Căn phòng này không lớn"
+  },
+  {
+    "id": "hsk1_31",
+    "chuHan": "不对",
+    "bacKinh": "búduì",
+    "nghiaViet": "không đúng",
+    "viDuChuHan": "这题你做得不对。",
+    "viDuNghia": "Câu này bạn làm không đúng."
+  },
+  {
+    "id": "hsk1_32",
+    "chuHan": "不客气",
+    "bacKinh": "bú kèqi",
+    "nghiaViet": "không có gì",
+    "viDuChuHan": "A：谢谢你。 B: 不客气",
+    "viDuNghia": "A:cảm ơn bạn. B: Không có gì."
+  },
+  {
+    "id": "hsk1_33",
+    "chuHan": "不用",
+    "bacKinh": "búyòng",
+    "nghiaViet": "không cần",
+    "viDuChuHan": "作业我可以自己做，不用你帮忙。",
+    "viDuNghia": "Bài tập tôi có thể tự làm, không cần phiền bạn giúp đâu."
+  },
+  {
+    "id": "hsk1_34",
+    "chuHan": "不",
+    "bacKinh": "bù",
+    "nghiaViet": "không",
+    "viDuChuHan": "我今天不上课。",
+    "viDuNghia": "Hôm nay tôi không đi học."
+  },
+  {
+    "id": "hsk1_35",
+    "chuHan": "菜",
+    "bacKinh": "cài",
+    "nghiaViet": "đồ ăn, món ăn",
+    "viDuChuHan": "你喜欢吃什么菜?",
+    "viDuNghia": "Bạn thích ăn món gì?"
+  },
+  {
+    "id": "hsk1_36",
+    "chuHan": "差",
+    "bacKinh": "chà",
+    "nghiaViet": "thiếu, kém",
+    "viDuChuHan": "刚来中国的时候我的汉语很差。",
+    "viDuNghia": "Lúc mới đến Trung Quốc tiếng Trung của tôi kém lắm."
+  },
+  {
+    "id": "hsk1_37",
+    "chuHan": "茶",
+    "bacKinh": "chá",
+    "nghiaViet": "trà",
+    "viDuChuHan": "我不喜欢喝咖啡，我喜欢喝茶。",
+    "viDuNghia": "Tôi không thích uống cafe, tôi thích uống trà."
+  },
+  {
+    "id": "hsk1_38",
+    "chuHan": "常",
+    "bacKinh": "cháng",
+    "nghiaViet": "thường",
+    "viDuChuHan": "我常去图书馆看书。",
+    "viDuNghia": "Tôi thường đến thư viện đọc sách."
+  },
+  {
+    "id": "hsk1_39",
+    "chuHan": "常常",
+    "bacKinh": "chángcháng",
+    "nghiaViet": "thường thường",
+    "viDuChuHan": "他常常来我家玩儿。",
+    "viDuNghia": "Anh ấy thường thường đến nhà tôi chơi."
+  },
+  {
+    "id": "hsk1_40",
+    "chuHan": "唱",
+    "bacKinh": "chàng",
+    "nghiaViet": "hát",
+    "viDuChuHan": "他会唱中文歌。",
+    "viDuNghia": "Anh ấy biết hát bài hát tiếng Trung."
+  },
+  {
+    "id": "hsk1_41",
+    "chuHan": "唱歌",
+    "bacKinh": "chànggē",
+    "nghiaViet": "hát, ca hát",
+    "viDuChuHan": "我很喜欢唱歌。",
+    "viDuNghia": "Tôi rất thích hát."
+  },
+  {
+    "id": "hsk1_42",
+    "chuHan": "车",
+    "bacKinh": "chē",
+    "nghiaViet": "xe",
+    "viDuChuHan": "那辆车是我的车。",
+    "viDuNghia": "Chiếc xe đó là của tôi."
+  },
+  {
+    "id": "hsk1_43",
+    "chuHan": "车票",
+    "bacKinh": "chēpiào",
+    "nghiaViet": "vé xe",
+    "viDuChuHan": "我已经买了车票。",
+    "viDuNghia": "Tôi đã mua vé xe rồi."
+  },
+  {
+    "id": "hsk1_44",
+    "chuHan": "车上",
+    "bacKinh": "chē shang",
+    "nghiaViet": "trên xe",
+    "viDuChuHan": "车上的人太多了。",
+    "viDuNghia": "Trên xe đông người quá."
+  },
+  {
+    "id": "hsk1_45",
+    "chuHan": "车站",
+    "bacKinh": "chēzhàn",
+    "nghiaViet": "bến xe",
+    "viDuChuHan": "你在车站等我吗？",
+    "viDuNghia": "Bạn đợi tôi ở bến xe sao?"
+  },
+  {
+    "id": "hsk1_46",
+    "chuHan": "吃",
+    "bacKinh": "chī",
+    "nghiaViet": "ăn",
+    "viDuChuHan": "今天你想吃什么？",
+    "viDuNghia": "Hôm nay bạn muốn ăn gì?"
+  },
+  {
+    "id": "hsk1_47",
+    "chuHan": "吃饭",
+    "bacKinh": "chī//fàn",
+    "nghiaViet": "ăn cơm",
+    "viDuChuHan": "我今天回家吃饭。",
+    "viDuNghia": "Hôm nay tôi về nhà ăn cơm."
+  },
+  {
+    "id": "hsk1_48",
+    "chuHan": "出",
+    "bacKinh": "chū",
+    "nghiaViet": "ra, xuất",
+    "viDuChuHan": "他今天早上出门了。",
+    "viDuNghia": "Sáng sớm hôm nay cô ấy đã ra ngoài rồi."
+  },
+  {
+    "id": "hsk1_49",
+    "chuHan": "出来",
+    "bacKinh": "chūlái",
+    "nghiaViet": "xuất hiện, đi ra",
+    "viDuChuHan": "你出来吧！我们等你好久了！",
+    "viDuNghia": "Bạn ra đây đi! Chúng tôi đợi bạn lâu lắm rồi đấy!"
+  },
+  {
+    "id": "hsk1_50",
+    "chuHan": "出去",
+    "bacKinh": "chūqù",
+    "nghiaViet": "ra, ra ngoài",
+    "viDuChuHan": "你出去吧！ Bạn ra ngoài đi!",
+    "viDuNghia": ""
+  },
+  {
+    "id": "hsk1_51",
+    "chuHan": "穿",
+    "bacKinh": "chuān",
+    "nghiaViet": "mặc",
+    "viDuChuHan": "我喜欢穿黑色的衣服。",
+    "viDuNghia": "Tôi thích mặc đồ màu đen."
+  },
+  {
+    "id": "hsk1_52",
+    "chuHan": "床",
+    "bacKinh": "chuáng",
+    "nghiaViet": "giường, đệm",
+    "viDuChuHan": "我常常躺在床上看书。",
+    "viDuNghia": "Tôi thường nằm trên giường đọc sách."
+  },
+  {
+    "id": "hsk1_53",
+    "chuHan": "次",
+    "bacKinh": "cì",
+    "nghiaViet": "lần",
+    "viDuChuHan": "这部电影我看好几次了。",
+    "viDuNghia": "Bộ phim này tôi xem mấy lần rồi."
+  },
+  {
+    "id": "hsk1_54",
+    "chuHan": "从",
+    "bacKinh": "cóng",
+    "nghiaViet": "từ, qua, theo",
+    "viDuChuHan": "我从小就喜欢游泳。",
+    "viDuNghia": "Từ nhỏ tôi đã thích bơi."
+  },
+  {
+    "id": "hsk1_55",
+    "chuHan": "错",
+    "bacKinh": "cuò",
+    "nghiaViet": "sai",
+    "viDuChuHan": "这个句子你做错了。",
+    "viDuNghia": "Câu này bạn làm sai rồi."
+  },
+  {
+    "id": "hsk1_56",
+    "chuHan": "打",
+    "bacKinh": "dǎ",
+    "nghiaViet": "đánh, bắt",
+    "viDuChuHan": "他被坏人打重伤了。",
+    "viDuNghia": "Anh ấy bị người xấu đánh trọng thương rồi."
+  },
+  {
+    "id": "hsk1_57",
+    "chuHan": "打车",
+    "bacKinh": "dǎchē",
+    "nghiaViet": "bắt xe",
+    "viDuChuHan": "我打车回家。",
+    "viDuNghia": "Tôi gọi xe về nhà."
+  },
+  {
+    "id": "hsk1_58",
+    "chuHan": "打电话",
+    "bacKinh": "dǎ diànhuà",
+    "nghiaViet": "gọi điện",
+    "viDuChuHan": "我给他打电话了。",
+    "viDuNghia": "Tôi gọi điện cho anh ấy rồi."
+  },
+  {
+    "id": "hsk1_59",
+    "chuHan": "打开",
+    "bacKinh": "dǎkāi",
+    "nghiaViet": "mở, mở ra",
+    "viDuChuHan": "今天天气很好，打开窗户吧。",
+    "viDuNghia": "Hôm nay thời tiết tốt, hãy mở cửa sổ ra đi."
+  },
+  {
+    "id": "hsk1_60",
+    "chuHan": "打球",
+    "bacKinh": "dǎ qiú",
+    "nghiaViet": "chơi bóng",
+    "viDuChuHan": "我常去打球。",
+    "viDuNghia": "Tôi hay đi đánh bóng."
+  },
+  {
+    "id": "hsk1_61",
+    "chuHan": "大",
+    "bacKinh": "dà",
+    "nghiaViet": "to, lớn",
+    "viDuChuHan": "她的眼睛好大。",
+    "viDuNghia": "Đôi mắt cô ấy to thật."
+  },
+  {
+    "id": "hsk1_62",
+    "chuHan": "大学",
+    "bacKinh": "dàxué",
+    "nghiaViet": "đại học",
+    "viDuChuHan": "我考上大学了！",
+    "viDuNghia": "Tôi đỗ đại học rồi!"
+  },
+  {
+    "id": "hsk1_63",
+    "chuHan": "大学生",
+    "bacKinh": "dàxuéshēng",
+    "nghiaViet": "sinh viên đại học",
+    "viDuChuHan": "他是大学生。",
+    "viDuNghia": "Anh ấy là sinh viên đại học."
+  },
+  {
+    "id": "hsk1_64",
+    "chuHan": "到",
+    "bacKinh": "dào",
+    "nghiaViet": "đến, tới",
+    "viDuChuHan": "我已经到学校了。",
+    "viDuNghia": "Tôi đã đến trường rồi."
+  },
+  {
+    "id": "hsk1_65",
+    "chuHan": "得到",
+    "bacKinh": "dédào",
+    "nghiaViet": "đạt được, nhận được",
+    "viDuChuHan": "只要好好学习会得到好成绩。",
+    "viDuNghia": "Chỉ cần học tập chăm chỉ sẽ đạt thành tích tốt."
+  },
+  {
+    "id": "hsk1_66",
+    "chuHan": "他",
+    "bacKinh": "de",
+    "nghiaViet": "anh ta",
+    "viDuChuHan": "他高兴地笑。",
+    "viDuNghia": "Anh ấy cười một cách rất vui vẻ."
+  },
+  {
+    "id": "hsk1_67",
+    "chuHan": "的",
+    "bacKinh": "de",
+    "nghiaViet": "(biểu thị sự sở hữu) của",
+    "viDuChuHan": "这是我的手机。",
+    "viDuNghia": "Đây là điện thoại của tôi."
+  },
+  {
+    "id": "hsk1_68",
+    "chuHan": "等",
+    "bacKinh": "děng",
+    "nghiaViet": "đợi, chờ",
+    "viDuChuHan": "你等我一会儿。",
+    "viDuNghia": "Bạn đợi tôi một lúc."
+  },
+  {
+    "id": "hsk1_69",
+    "chuHan": "地",
+    "bacKinh": "dì",
+    "nghiaViet": "đất, lục địa; trái đất",
+    "viDuChuHan": "地球是我们的家。",
+    "viDuNghia": "Trái đất là ngôi nhà của chúng ta."
+  },
+  {
+    "id": "hsk1_70",
+    "chuHan": "地点",
+    "bacKinh": "dìdiǎn",
+    "nghiaViet": "địa điểm, nơi chốn",
+    "viDuChuHan": "那个地点很有名， 你去过了吗？",
+    "viDuNghia": "Chỗ đó rất nổi tiếng, bạn đã đi chưa?"
+  },
+  {
+    "id": "hsk1_71",
+    "chuHan": "地方",
+    "bacKinh": "dìfang",
+    "nghiaViet": "nơi, địa phương",
+    "viDuChuHan": "这个地方有很多好吃的东西。",
+    "viDuNghia": "Nơi này có rất nhiều đồ ăn ngon."
+  },
+  {
+    "id": "hsk1_72",
+    "chuHan": "地上",
+    "bacKinh": "dìshang",
+    "nghiaViet": "trên mặt đất",
+    "viDuChuHan": "那孩子坐在地上玩游戏。",
+    "viDuNghia": "Đứa trẻ đó ngồi dưới đất chơi điện tử."
+  },
+  {
+    "id": "hsk1_73",
+    "chuHan": "地图",
+    "bacKinh": "dìtú",
+    "nghiaViet": "bản đồ",
+    "viDuChuHan": "墙上有一张地图。",
+    "viDuNghia": "Trên tường có một tấm bản đồ."
+  },
+  {
+    "id": "hsk1_74",
+    "chuHan": "弟弟| 弟",
+    "bacKinh": "dìdi|dì",
+    "nghiaViet": "em trai",
+    "viDuChuHan": "他是我的弟弟。",
+    "viDuNghia": "bạn ấy là em trai tôi."
+  },
+  {
+    "id": "hsk1_75",
+    "chuHan": "第（第二）",
+    "bacKinh": "dì（dì-èr）",
+    "nghiaViet": "thứ ... (số thứ tự)",
+    "viDuChuHan": "我这次考了第二名。",
+    "viDuNghia": "Lần này tôi thi được hạng 2."
+  },
+  {
+    "id": "hsk1_76",
+    "chuHan": "点",
+    "bacKinh": "diǎn",
+    "nghiaViet": "ít, chút, hơi",
+    "viDuChuHan": "今天有点热。",
+    "viDuNghia": "Hôm nay hơi nóng."
+  },
+  {
+    "id": "hsk1_77",
+    "chuHan": "电",
+    "bacKinh": "diàn",
+    "nghiaViet": "điện, pin.",
+    "viDuChuHan": "我的手机没电了。",
+    "viDuNghia": "Điện thoại của tôi hết pin rồi."
+  },
+  {
+    "id": "hsk1_78",
+    "chuHan": "电话",
+    "bacKinh": "diànhuà",
+    "nghiaViet": "điện thoại",
+    "viDuChuHan": "这是你的电话吗？",
+    "viDuNghia": "Đây là điện thoại của bạn à?"
+  },
+  {
+    "id": "hsk1_79",
+    "chuHan": "电脑",
+    "bacKinh": "diànnǎo",
+    "nghiaViet": "máy tính",
+    "viDuChuHan": "我想买一台电脑。",
+    "viDuNghia": "Tôi muốn mua một cái máy tính."
+  },
+  {
+    "id": "hsk1_80",
+    "chuHan": "电视",
+    "bacKinh": "diànshì",
+    "nghiaViet": "truyền hình; TV",
+    "viDuChuHan": "我在家里看电视。",
+    "viDuNghia": "Tôi ở nhà xem TV."
+  },
+  {
+    "id": "hsk1_81",
+    "chuHan": "电视机",
+    "bacKinh": "diànshìjī",
+    "nghiaViet": "(chiếc) TV",
+    "viDuChuHan": "他房间里有电视机。",
+    "viDuNghia": "Trong phòng của anh ấy có TV."
+  },
+  {
+    "id": "hsk1_82",
+    "chuHan": "电影",
+    "bacKinh": "diànyǐng",
+    "nghiaViet": "điện ảnh, phim (nói chung)",
+    "viDuChuHan": "这部电影很好看。",
+    "viDuNghia": "Bộ phim này rất hay."
+  },
+  {
+    "id": "hsk1_83",
+    "chuHan": "电影院",
+    "bacKinh": "diànyǐngyuàn",
+    "nghiaViet": "rạp chiếu phim",
+    "viDuChuHan": "我带电影院门口等你。",
+    "viDuNghia": "Tôi đợi bạn ở cửa rạp chiếu phim."
+  },
+  {
+    "id": "hsk1_84",
+    "chuHan": "东",
+    "bacKinh": "dōng",
+    "nghiaViet": "đông",
+    "viDuChuHan": "我在学校东门等你。",
+    "viDuNghia": "Tôi đợi bạn ở cửa Đông của Trường học."
+  },
+  {
+    "id": "hsk1_85",
+    "chuHan": "东边",
+    "bacKinh": "dōngbian",
+    "nghiaViet": "phía đông",
+    "viDuChuHan": "图书馆在学校东边。",
+    "viDuNghia": "Thư viện ở phía đông của trường học."
+  },
+  {
+    "id": "hsk1_86",
+    "chuHan": "东西",
+    "bacKinh": "dōngxi",
+    "nghiaViet": "đồ đạc, đồ, vật",
+    "viDuChuHan": "这是什么东西？",
+    "viDuNghia": "Đây là cái gì vậy?"
+  },
+  {
+    "id": "hsk1_87",
+    "chuHan": "动",
+    "bacKinh": "dòng",
+    "nghiaViet": "động, chạm",
+    "viDuChuHan": "你不要动我的东西。",
+    "viDuNghia": "Bạn đừng có động vào đồ của tôi."
+  },
+  {
+    "id": "hsk1_88",
+    "chuHan": "动作",
+    "bacKinh": "dòngzuò",
+    "nghiaViet": "động tác, hoạt động",
+    "viDuChuHan": "她表演的动作真迷人。",
+    "viDuNghia": "Động tác biểu diễn của cô ấy thật là thu hút."
+  },
+  {
+    "id": "hsk1_89",
+    "chuHan": "都",
+    "bacKinh": "dōu",
+    "nghiaViet": "đều",
+    "viDuChuHan": "这些书我都看完了。",
+    "viDuNghia": "Những quyển sách này tôi đều đọc hết rồi."
+  },
+  {
+    "id": "hsk1_90",
+    "chuHan": "读",
+    "bacKinh": "dú",
+    "nghiaViet": "đọc",
+    "viDuChuHan": "你在读什么书？",
+    "viDuNghia": "Bạn đang đọc sách gì thế?"
+  },
+  {
+    "id": "hsk1_91",
+    "chuHan": "读书",
+    "bacKinh": "dú//shū",
+    "nghiaViet": "đọc sách",
+    "viDuChuHan": "我爷爷很喜欢读书。",
+    "viDuNghia": "Ông tôi rất thích đọc sách."
+  },
+  {
+    "id": "hsk1_92",
+    "chuHan": "对",
+    "bacKinh": "duì",
+    "nghiaViet": "đúng",
+    "viDuChuHan": "你说得对。",
+    "viDuNghia": "Bạn nói đúng."
+  },
+  {
+    "id": "hsk1_93",
+    "chuHan": "对不起",
+    "bacKinh": "duìbuqǐ",
+    "nghiaViet": "xin lỗi",
+    "viDuChuHan": "对不起，我来晚了。",
+    "viDuNghia": "Xin lỗi, tôi đến muộn rồi."
+  },
+  {
+    "id": "hsk1_94",
+    "chuHan": "多",
+    "bacKinh": "duō",
+    "nghiaViet": "Nhiều<br>(đại từ nghi vấn) bao nhiêu",
+    "viDuChuHan": "他有很多书。<br>你今年多大了？",
+    "viDuNghia": "Anh ấy có rất nhiều sách.<br>bạn năm nay bao nhiêu tuổi rồi?"
+  },
+  {
+    "id": "hsk1_95",
+    "chuHan": "多少",
+    "bacKinh": "duōshǎo",
+    "nghiaViet": "bao nhiêu",
+    "viDuChuHan": "这件衣服多少钱？",
+    "viDuNghia": "Bộ đồ này bao nhiêu tiền?"
+  },
+  {
+    "id": "hsk1_96",
+    "chuHan": "饿",
+    "bacKinh": "è",
+    "nghiaViet": "đói",
+    "viDuChuHan": "我饿了，我们去吃饭吧。",
+    "viDuNghia": "Tôi đói rồi, chúng ta đi ăn cơm đi."
+  },
+  {
+    "id": "hsk1_97",
+    "chuHan": "儿子",
+    "bacKinh": "érzi",
+    "nghiaViet": "con trai",
+    "viDuChuHan": "我儿子今年三岁。",
+    "viDuNghia": "Năm nay con trai tôi 3 tuổi."
+  },
+  {
+    "id": "hsk1_98",
+    "chuHan": "二",
+    "bacKinh": "èr",
+    "nghiaViet": "số 2",
+    "viDuChuHan": "今天是三月二号。",
+    "viDuNghia": "Hôm nay là ngày 2 tháng 3."
+  },
+  {
+    "id": "hsk1_99",
+    "chuHan": "饭",
+    "bacKinh": "fàn",
+    "nghiaViet": "cơm",
+    "viDuChuHan": "你吃饭了吗?",
+    "viDuNghia": "Bạn ăn cơm chưa?"
+  },
+  {
+    "id": "hsk1_100",
+    "chuHan": "饭店",
+    "bacKinh": "fàndiàn",
+    "nghiaViet": "quán ăn/ nhà hàng",
+    "viDuChuHan": "这饭店的菜很好吃。",
+    "viDuNghia": "Đồ ăn ở nhà hàng này rất ngon."
+  },
+  {
+    "id": "hsk1_101",
+    "chuHan": "房间",
+    "bacKinh": "fángjiān",
+    "nghiaViet": "căn phòng",
+    "viDuChuHan": "他的房间很大。",
+    "viDuNghia": "Phòng của anh ấy rất to."
+  },
+  {
+    "id": "hsk1_102",
+    "chuHan": "房子",
+    "bacKinh": "fángzi",
+    "nghiaViet": "căn nhà/ căn hộ",
+    "viDuChuHan": "他的房子比我的小。",
+    "viDuNghia": "Phòng của anh ấy nhỏ hơn phòng của tôi."
+  },
+  {
+    "id": "hsk1_103",
+    "chuHan": "放",
+    "bacKinh": "fàng",
+    "nghiaViet": "thả, đặt, để",
+    "viDuChuHan": "我的手机放在桌子上。",
+    "viDuNghia": "Điện thoại của tôi để trên bàn."
+  },
+  {
+    "id": "hsk1_104",
+    "chuHan": "放假",
+    "bacKinh": "fàng//jià",
+    "nghiaViet": "nghỉ, nghỉ định kỳ",
+    "viDuChuHan": "我们明天放假。",
+    "viDuNghia": "Ngày mai chúng tôi được nghỉ."
+  },
+  {
+    "id": "hsk1_105",
+    "chuHan": "放学",
+    "bacKinh": "fàng//xué",
+    "nghiaViet": "tan học",
+    "viDuChuHan": "你几点放学？",
+    "viDuNghia": "Bạn mấy giờ tan học?"
+  },
+  {
+    "id": "hsk1_106",
+    "chuHan": "飞",
+    "bacKinh": "fēi",
+    "nghiaViet": "bay",
+    "viDuChuHan": "飞机快起飞了。",
+    "viDuNghia": "Máy bay sắp cất cánh rồi."
+  },
+  {
+    "id": "hsk1_107",
+    "chuHan": "飞机",
+    "bacKinh": "fēijī",
+    "nghiaViet": "máy bay",
+    "viDuChuHan": "我喜欢坐飞机",
+    "viDuNghia": "Tôi thích đi máy bay."
+  },
+  {
+    "id": "hsk1_108",
+    "chuHan": "非常",
+    "bacKinh": "fēicháng",
+    "nghiaViet": "vô cùng, hết sức, rất",
+    "viDuChuHan": "我非常羡慕她。",
+    "viDuNghia": "Tôi vô cùng ngưỡng mộ cô ấy."
+  },
+  {
+    "id": "hsk1_109",
+    "chuHan": "分",
+    "bacKinh": "fēn",
+    "nghiaViet": "phút",
+    "viDuChuHan": "现在9点5分。",
+    "viDuNghia": "Bây giờ là 9 giờ 5 phút"
+  },
+  {
+    "id": "hsk1_110",
+    "chuHan": "风",
+    "bacKinh": "fēng",
+    "nghiaViet": "gió",
+    "viDuChuHan": "今天的风很大。",
+    "viDuNghia": "Gió hôm nay rất lớn."
+  },
+  {
+    "id": "hsk1_111",
+    "chuHan": "干",
+    "bacKinh": "gān",
+    "nghiaViet": "khô",
+    "viDuChuHan": "我的衣服晒干了。",
+    "viDuNghia": "Quần áo của tôi phơi khô rồi."
+  },
+  {
+    "id": "hsk1_112",
+    "chuHan": "干净",
+    "bacKinh": "gānjìng",
+    "nghiaViet": "sạch sẽ",
+    "viDuChuHan": "她的房间很干净。",
+    "viDuNghia": "Phòng của cô ấy rất sạch."
+  },
+  {
+    "id": "hsk1_113",
+    "chuHan": "干",
+    "bacKinh": "gàn",
+    "nghiaViet": "làm",
+    "viDuChuHan": "我今天要干很多事儿。",
+    "viDuNghia": "Hôm nay tôi phải làm rất nhiều việc."
+  },
+  {
+    "id": "hsk1_114",
+    "chuHan": "干什么",
+    "bacKinh": "gànshénme",
+    "nghiaViet": "làm gì đó",
+    "viDuChuHan": "你在干什么？",
+    "viDuNghia": "Bạn đang làm gì thế?"
+  },
+  {
+    "id": "hsk1_115",
+    "chuHan": "高",
+    "bacKinh": "gāo",
+    "nghiaViet": "cao",
+    "viDuChuHan": "他是我们班最高的学生。",
+    "viDuNghia": "Anh ấy là người cao nhất trong lớp chúng tôi."
+  },
+  {
+    "id": "hsk1_116",
+    "chuHan": "高兴",
+    "bacKinh": "gāoxìng",
+    "nghiaViet": "vui vẻ, vui mừng",
+    "viDuChuHan": "他高兴地说。",
+    "viDuNghia": "Anh ấy nói một cách vui vẻ."
+  },
+  {
+    "id": "hsk1_117",
+    "chuHan": "告诉",
+    "bacKinh": "gàosù",
+    "nghiaViet": "nói, kể lại",
+    "viDuChuHan": "这件事我还没告诉他。",
+    "viDuNghia": "Chuyện này tôi vẫn chưa nói cho anh ấy."
+  },
+  {
+    "id": "hsk1_118",
+    "chuHan": "哥哥｜哥",
+    "bacKinh": "gēge｜gē",
+    "nghiaViet": "anh trai",
+    "viDuChuHan": "我哥哥比我大五岁。",
+    "viDuNghia": "Anh trai tôi lớn hơn tôi năm tuổi."
+  },
+  {
+    "id": "hsk1_119",
+    "chuHan": "歌",
+    "bacKinh": "gē",
+    "nghiaViet": "bài hát",
+    "viDuChuHan": "我很喜欢这首歌。",
+    "viDuNghia": "Tôi rất thích bài hát này."
+  },
+  {
+    "id": "hsk1_120",
+    "chuHan": "个",
+    "bacKinh": "gè",
+    "nghiaViet": "cái",
+    "viDuChuHan": "我喜欢这个盘子。",
+    "viDuNghia": "Tôi thích cái đĩa này."
+  },
+  {
+    "id": "hsk1_121",
+    "chuHan": "给",
+    "bacKinh": "gěi",
+    "nghiaViet": "cho",
+    "viDuChuHan": "我爸爸送给妈妈了一束花。",
+    "viDuNghia": "Bố tôi tặng cho mẹ tôi một bó hoa."
+  },
+  {
+    "id": "hsk1_122",
+    "chuHan": "跟",
+    "bacKinh": "gēn",
+    "nghiaViet": "và, cùng",
+    "viDuChuHan": "明天我跟朋友去看电影。",
+    "viDuNghia": "Ngày mai tôi đi xem phim cùng bạn."
+  }
+]
