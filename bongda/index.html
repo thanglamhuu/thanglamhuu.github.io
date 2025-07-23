@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+
+    <h1>Cổ vũ bóng đá</h1>
+    <h3>Để mọi người tiết kiệm thời gian và tập trung, mặc định clip được nghe ở tốc độ cao. Có thể chỉnh lại bằng bấm vào ... rồi thay đổi tốc độ nghe.</h3>
+    <li><audio src="" controls id="audioPlayer" style='width:100%'>
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li  class="current-song"><a href="6ab.mp3">6A4 cố lên</a></li>
+        <li ><a href="00_nhac_MagicInTheFeat.mp3">00_nhac_MagicInTheFeat</a></li>
+        <li ><a href="danh-trong.mp3">danh-trong</a></li>
+        <li ><a href="CHAMPIONS LEAGUE.m4a">CHAMPIONS LEAGUE</a></li>
+    </ul>
+    
+
+    <h4>Góp ý xin gửi về cho Thắng 0983 840 720. Xin cảm ơn.</h4>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

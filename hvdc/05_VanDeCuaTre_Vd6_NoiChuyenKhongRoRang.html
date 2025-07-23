@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Lớp Học Vấn Dạy Con</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <h1>Học Vấn Dạy Con - Dạy Trẻ Điều Gì Buổi 3 - TRẺ KHÔNG THÍCH LAO ĐỘNG</h1>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li><a href="05_DayTreDieuGi3_VD6_NoiChuyenKhongRoRang.mp3">Vấn đề 6_ Nói chuyện không rõ ràng</a></li>
+    </ul>
+    <h3><a href="https://docs.google.com/presentation/d/e/2PACX-1vTuTQruG-lyxasaxFIU8-PZ_h5BlG8gt4vLOY1iGhf45_YCeHldMnN_hFu7Sq8C2A/pub?start=false&loop=false&delayms=10000">Slide</a></h3>
+    <h3><a href="https://docs.google.com/presentation/d/1A7YYPnHtD8AiO3AHkXzhU5ve4b-7kdVk/edit?usp=sharing&ouid=109341076612892173524&rtpof=true&sd=true">Sửa Slide</a></h3>
+    <h3><a href="https://docs.google.com/document/d/e/2PACX-1vRhFBVf_seREhxpiwOg7nqA7zfZ3EoE9y27bvLul-SacCmigRLzVErlw7GHDYjlJg/pub">Xem Tóm Tắt</a></h3>
+    <h3><a href="https://docs.google.com/document/d/12B3pjWbS7QbXasco57vH58q4yB6KDBQl/edit?usp=sharing&ouid=109341076612892173524&rtpof=true&sd=true">Sửa Tóm Tắt</a></h3>
+    <h2>Tham khảo thêm</h2>
+    <h3>Nội dung gốc</h3>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/C2ys8foKQeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3><a href="https://youtu.be/cxz5UOxEMrU?list=PL06nJWk3ALbtelxPZ9FNYi8TCnjbeoujE&t=2814" target="_blank">Thầy Phương Tổng Kết</h3></a>
+    <h3><a href="https://www.youtube.com/playlist?list=PL06nJWk3ALbtelxPZ9FNYi8TCnjbeoujE" target="_blank">Danh Sách</h3></a>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

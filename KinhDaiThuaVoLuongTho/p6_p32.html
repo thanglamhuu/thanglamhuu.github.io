@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Audio Player</title>
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li{
+            height: 50px;
+        }
+        #playlist li a{
+            color:brown;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #playlist .current-song a{
+            color:blue;
+            
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <ul id="link">
+        <li><a href="../KinhDaiThuaVoLuongTho/p6_p32.html">Kinh Đại Thừa Vô Lượng Thọ</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho lặp</a></li>
+        <li><a href="../niem-phat/">Niệm Phật</a></li>
+        <li><a href="../niem-phat-thanh-phat/">Niệm Phật Thành Phật</a></li>
+    </ul>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer" playbackRate="0.5">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li  class="current-song"><a href="DTVLT_01_NguyenHuong.mp3">Nguyện Hương</a></li>
+        <li><a href="DTVLT_02_TanPhat.mp3">Tán Phật</a></li>
+        <li><a href="DTVLT_03_DanhLe.mp3">Đảnh Lễ</a></li>
+        <li><a href="DTVLT_04_KhaiKinh.mp3">Khai Kinh</a></li>
+        <li><a href="DTVLT_06_PhamThu6.mp3">Phẩm thứ 6</a></li>
+        <li><a href="DTVLT_08_PhamThu32_37.mp3">Phảm 32 - 37</a></li>
+        <li><a href="DTVLT_08_PhamThu_PhucNguyenHoiHuong.mp3">Phục Nguyện</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Sư Bà Niệm Phật</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayerSlow();
+    </script>
+</body>
+</html>

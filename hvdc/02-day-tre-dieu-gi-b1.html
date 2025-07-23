@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Lớp Học Vấn Dạy Con</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <h1>Học Vấn Dạy Con - Dạy Trẻ Điều Gì Buổi 1</h1>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li><a href="01_DayTreDieuGi1_01.mp3">Dạy trẻ điều gì buổi 1</a></li>
+    </ul>
+    <h3><a href="https://docs.google.com/presentation/d/e/2PACX-1vSa4vKT1taFw2pcf0xO6JOiTmfqr2jlIYw27QdIRmegEC7KGSKv5z3vHMbhE0KMnw/pub?start=false&loop=false&delayms=3000">Slide</a></h3>
+    <h3><a href="https://docs.google.com/presentation/d/1FJt-MlmaxeQ2BxG6OJE5Y-NXTzIgCHBY/edit#slide=id.p1">Sửa Slide</a></h3>
+    <h3><a href="https://docs.google.com/document/d/e/2PACX-1vRV4EZohDKAHwNtYmyG_kZYobFG0O2_DYlGXge-I-6mrkuUF6jpGa0TUXGdbcfkXbt_TGN2YgHLXqCE/pub">Xem kịch bản</a></h3>
+    <h3><a href="https://docs.google.com/document/d/15MmcBnECt3Vmr4EyMURkmo-69jLPOoy0/edit">Sửa kịch bản</a></h3>
+    <h2>Tham khảo thêm</h2>
+    <h3>Nội dung gốc</h3>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/lS8qeV6rHiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Thầy Phương Tổng Kết</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aE9NDDgnz_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <ul id="Tham khảo thêm">
+        <li><a href="4gdgd.mp3">Lớp học HỌC VẤN DẠY CON - Buổi 1 - Bốn giai đoạn giáo dục quan trọng - Cô giáo Nguyễn Khánh Tuân</a></li>
+    </ul> -->
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

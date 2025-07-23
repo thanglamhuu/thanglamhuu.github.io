@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Lớp Học Vấn Dạy Con</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <h1>Học Vấn Dạy Con - Bốn giai đoạn giáo dục quan trọng</h1>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li><a href="00_4gdgd.mp3">4 Giai Đoạn Giáo Dục Quan Trọng Để Con Cái Nên Người</a></li>
+        <li><a href="00_4gdhvdc_coLinhTrang.mp3">4 Giai Đoạn Giáo Dục Quan Trọng Để Con Cái Nên Người - Cô Linh Trang</a></li>
+        <li><a href="00_4gdhvdc_coTuan.mp3">4 Giai Đoạn Giáo Dục Quan Trọng Để Con Cái Nên Người - Cô Tuân</a></li>
+    </ul>
+    <a href="./hvdc_4giaiDoanGiaoDucQuanTrong.pdf">Slide</a>
+    <h2>Tham khảo thêm</h2>
+    <h3>Nội dung gốc</h3>
+    <iframe width="640" height="480" src="https://www.youtube.com/embed/rp2fmXxOkUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Buổi 1 - Bốn giai đoạn giáo dục quan trọng - Cô giáo Đỗ Linh Trang</h3>
+    <iframe width="640" height="480" src="https://www.youtube.com/embed/SDyZryjlqUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Buổi 1 - Bốn giai đoạn giáo dục quan trọng - Cô giáo Nguyễn Khánh Tuân</h3>
+    <iframe width="640" height="480" src="https://www.youtube.com/embed/LF_B8-tS-Uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- <ul id="Tham khảo thêm">
+        <li><a href="4gdgd.mp3">Lớp học HỌC VẤN DẠY CON - Buổi 1 - Bốn giai đoạn giáo dục quan trọng - Cô giáo Nguyễn Khánh Tuân</a></li>
+    </ul> -->
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

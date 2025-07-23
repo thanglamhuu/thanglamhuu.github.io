@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+
+    <h1>Dạy Con Làm Giàu</h1>
+    <h3>Có thể chỉnh lại bằng bấm vào ... rồi thay đổi tốc độ nghe.</h3>
+    <li><audio src="" controls id="audioPlayer" style='width:100%'>
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li><a href="01_NguNgoXayDuongOng_56.mp3">01 Người Đi Xây Dựng Đường Ống</a></li>
+        <li><a href="04_HoiDungBanDuoc.mp3">05 Hỏi Đúng Bán Được</a></li>
+        <li><a href="05_dclg11_a.mp3">06 DCLG 11 Trường Dạy KD Cho Những Người Thích Giúp Đỡ Người Khác - phần 1</a></li>
+        <li><a href="05_dclg11_b.mp3">07 DCLG 11 Trường Dạy KD Cho Những Người Thích Giúp Đỡ Người Khác - phần 2</a></li>
+        <li><a href="05_dclg11_c.mp3">08 DCLG 11 Trường Dạy KD Cho Những Người Thích Giúp Đỡ Người Khác - phần 3</a></li>
+        <li><a href="06_DCLG_a.mp3">09 DCLG Doanh Nghiệp Thế Kỷ 21 - phần 1</a></li>
+        <li><a href="06_DCLG_b.mp3">10 DCLG Doanh Nghiệp Thế Kỷ 21 - phần 2</a></li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
