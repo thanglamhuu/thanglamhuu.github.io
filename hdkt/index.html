@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #audioS{
+            width: 100%;
+        }
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+            font-size: 14px;
+
+        }
+        #playlist .current-song a{
+            color:blue;
+            font-weight: bolder;
+            font-size: 16px;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <ul id="link">
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho</a></li>
+        <li><a href="../niem-phat/">Niệm Phật</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/p6_p32.html">Kinh Đại Thừa Vô Lượng Thọ</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho lặp</a></li>
+        </ul>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer"  style="width: 100%;">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <!-- <li  class="current-song"><a href="030.mp3"> 30 </a></li>
+        <li  class="current-song"><a href="031.mp3"> 31 </a></li>
+        <li  class="current-song"><a href="032.mp3"> 32 </a></li>
+        <li  class="current-song"><a href="033.mp3"> 33 </a></li>
+        <li  class="current-song"><a href="034.mp3"> 34 </a></li>
+        <li  class="current-song"><a href="035.mp3"> 35 </a></li>
+        <li  class="current-song"><a href="036.mp3"> 36 </a></li>
+        <li  class="current-song"><a href="037.mp3"> 37 </a></li>
+        <li  class="current-song"><a href="038.mp3"> 38 </a></li>
+        <li  class="current-song"><a href="039.mp3"> 39 </a></li>
+        <li  class="current-song"><a href="040.mp3"> 040 </a></li>
+        <li  class="current-song"><a href="041.mp3"> 041 </a></li>
+        <li  class="current-song"><a href="042.mp3"> 042 </a></li>
+        <li  class="current-song"><a href="043.mp3"> 043 </a></li>
+        <li  class="current-song"><a href="044.mp3"> 044 </a></li>
+        <li  class="current-song"><a href="045.mp3"> 045 </a></li>
+        <li  class="current-song"><a href="046.mp3"> 046 </a></li>
+        <li  class="current-song"><a href="047.mp3"> 047 </a></li>
+        <li  class="current-song"><a href="048.mp3"> 048 </a></li>
+        <li  class="current-song"><a href="049.mp3"> 049 </a></li>
+        <li  class="current-song"><a href="050.mp3"> 050 </a></li>
+        <li  class="current-song"><a href="051.mp3"> 051 </a></li>
+        <li  class="current-song"><a href="052.mp3"> 052 </a></li>
+        <li  class="current-song"><a href="053.mp3"> 053 </a></li>
+        <li  class="current-song"><a href="054.mp3"> 054 </a></li>
+        <li  class="current-song"><a href="055.mp3"> 055 </a></li>
+        <li  class="current-song"><a href="056.mp3"> 056 </a></li>
+        <li  class="current-song"><a href="057.mp3"> 057 </a></li>
+        <li  class="current-song"><a href="058.mp3"> 058 </a></li>
+        <li  class="current-song"><a href="059.mp3"> 059 </a></li>
+        <li  class="current-song"><a href="060.mp3"> 060 </a></li>
+        <li  class="current-song"><a href="061.mp3"> 061 </a></li>
+        <li  class="current-song"><a href="062.mp3"> 062 </a></li>
+        <li  class="current-song"><a href="063.mp3"> 063 </a></li>
+        <li  class="current-song"><a href="064.mp3"> 064 </a></li>
+        <li  class="current-song"><a href="065.mp3"> 065 </a></li>
+        <li  class="current-song"><a href="066.mp3"> 066 </a></li>
+        <li  class="current-song"><a href="067.mp3"> 067 </a></li>
+        <li  class="current-song"><a href="068.mp3"> 068 </a></li>
+        <li  class="current-song"><a href="069.mp3"> 069 </a></li> -->
+        <!-- <li  class="current-song"><a href="070.mp3"> 070 </a></li>
+        <li  class="current-song"><a href="071.mp3"> 071 </a></li>
+        <li  class="current-song"><a href="072.mp3"> 072 </a></li>
+        <li  class="current-song"><a href="073.mp3"> 073 </a></li>
+        <li  class="current-song"><a href="074.mp3"> 074 </a></li>
+        <li  class="current-song"><a href="075.mp3"> 075 </a></li>
+        <li  class="current-song"><a href="076.mp3"> 076 </a></li>
+        <li  class="current-song"><a href="077.mp3"> 077 </a></li>
+        <li  class="current-song"><a href="078.mp3"> 078 </a></li>
+        <li  class="current-song"><a href="079.mp3"> 079 </a></li>         -->
+        <li  class="current-song"><a href="080.mp3"> 080 </a></li>
+        <li  class="current-song"><a href="081.mp3"> 081 </a></li>
+        <li  class="current-song"><a href="082.mp3"> 082 </a></li>
+        <li  class="current-song"><a href="083.mp3"> 083 </a></li>
+        <li  class="current-song"><a href="084.mp3"> 084 </a></li>
+        <li  class="current-song"><a href="085.mp3"> 085 </a></li>
+        <li  class="current-song"><a href="086.mp3"> 086 </a></li>
+        <li  class="current-song"><a href="087.mp3"> 087 </a></li>
+        <li  class="current-song"><a href="088.mp3"> 088 </a></li>
+        <li  class="current-song"><a href="089.mp3"> 089 </a></li> 
+        <li  class="current-song"><a href="090.mp3"> 090 </a></li>
+        <li  class="current-song"><a href="091.mp3"> 091 </a></li>
+        <li  class="current-song"><a href="092.mp3"> 092 </a></li>
+        <li  class="current-song"><a href="093.mp3"> 093 </a></li>
+        <li  class="current-song"><a href="094.mp3"> 094 </a></li>
+        <li  class="current-song"><a href="095.mp3"> 095 </a></li>
+        <li  class="current-song"><a href="096.mp3"> 096 </a></li>
+        <li  class="current-song"><a href="097.mp3"> 097 </a></li>
+        <li  class="current-song"><a href="098.mp3"> 098 </a></li>
+        <li  class="current-song"><a href="099.mp3"> 099 </a></li>     
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

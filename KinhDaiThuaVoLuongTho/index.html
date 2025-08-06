@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <ul id="link">
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho</a></li>
+        <li><a href="../niem-phat/">Niệm Phật</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/p6_p32.html">Kinh Đại Thừa Vô Lượng Thọ</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho lặp</a></li>
+        </ul>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li  class="current-song"><a href="DTVLT_01_NguyenHuong.mp3">DTVLT_01_NguyenHuong</a></li>
+        <li><a href="DTVLT_02_TanPhat.mp3">DTVLT_02_TanPhat</a></li>
+        <li><a href="DTVLT_03_DanhLe.mp3">DTVLT_03_DanhLe</a></li>
+        <li><a href="DTVLT_04_KhaiKinh.mp3">DTVLT_04_KhaiKinh</a></li>
+        <li><a href="DTVLT_06_PhamThu6.mp3">DTVLT_06_PhamThu6</a></li>
+        <li><a href="DTVLT_08_PhamThu32_37.mp3">DTVLT_08_PhamThu32_37</a></li>
+        <li><a href="DTVLT_08_PhamThu_PhucNguyenHoiHuong.mp3">DTVLT_09_PhamThu_PhucNguyenHoiHuong</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="../niem-phat/03_NiemPhatKinhHanhSuBaChuaNgoi.mp3">Niem Phat Kinh Hanh Su Ba Chua Ngoi</a></li>
+        <li><a href="DTVLT_01_NguyenHuong.mp3">DTVLT_01_NguyenHuong</a></li>
+        <li><a href="DTVLT_02_TanPhat.mp3">DTVLT_02_TanPhat</a></li>
+        <li><a href="DTVLT_03_DanhLe.mp3">DTVLT_03_DanhLe</a></li>
+        <li><a href="DTVLT_04_KhaiKinh.mp3">DTVLT_04_KhaiKinh</a></li>
+        <li><a href="DTVLT_06_PhamThu6.mp3">DTVLT_06_PhamThu6</a></li>
+        <li><a href="DTVLT_08_PhamThu32_37.mp3">DTVLT_08_PhamThu32_37</a></li>
+        <li><a href="DTVLT_08_PhamThu_PhucNguyenHoiHuong.mp3">DTVLT_09_PhamThu_PhucNguyenHoiHuong</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="../niem-phat/03_NiemPhatKinhHanhSuBaChuaNgoi.mp3">Niem Phat Kinh Hanh Su Ba Chua Ngoi</a></li>
+        <li><a href="DTVLT_01_NguyenHuong.mp3">DTVLT_01_NguyenHuong</a></li>
+        <li><a href="DTVLT_02_TanPhat.mp3">DTVLT_02_TanPhat</a></li>
+        <li><a href="DTVLT_03_DanhLe.mp3">DTVLT_03_DanhLe</a></li>
+        <li><a href="DTVLT_04_KhaiKinh.mp3">DTVLT_04_KhaiKinh</a></li>
+        <li><a href="DTVLT_06_PhamThu6.mp3">DTVLT_06_PhamThu6</a></li>
+        <li><a href="DTVLT_08_PhamThu32_37.mp3">DTVLT_08_PhamThu32_37</a></li>
+        <li><a href="DTVLT_08_PhamThu_PhucNguyenHoiHuong.mp3">DTVLT_09_PhamThu_PhucNguyenHoiHuong</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="../niem-phat/03_NiemPhatKinhHanhSuBaChuaNgoi.mp3">Niem Phat Kinh Hanh Su Ba Chua Ngoi</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

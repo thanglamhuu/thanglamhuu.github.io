@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <ul id="link">
+        <li><a href="../">Trang chủ</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho</a></li>
+        <li><a href="../niem-phat/">Niệm Phật</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/p6_p32.html">Kinh Đại Thừa Vô Lượng Thọ</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho lặp</a></li>
+        </ul>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li  class="current-song"><a href="nhac_suoi.mp3">Nhạc suối</a></li>
+        <li><a href="01ThienBuongThu_SuCoChanKhong.mp3">Thiền Buông Thư</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
