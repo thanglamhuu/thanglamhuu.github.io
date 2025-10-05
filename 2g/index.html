@@ -1,0 +1,117 @@
+<body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta title="Hang Out 3 Student book">
+        <style>
+            .flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                background-color: DodgerBlue;
+            }
+            
+            .flex-container > button {
+                background-color: #f1f1f1;
+                width: 50px;
+                margin: 5px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 25px;
+            }
+            
+            .flex-container > a {
+                background-color: #f1f1f1;
+                margin: 5px;
+                padding: 2px 5px;
+                text-align: center;
+                line-height: 40px;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <audio id="aud" controls="" loop="" src="https://thanglamhuu.github.io/eng-hangout/studentbook/Track%20001.mp3" type="audio/mp3"></audio>
+        <!-- <audio id="aud" src="https://thanglamhuu.github.io/eng-hangout/studentbook/Track%20001.mp3" type="audio/mp3"></audio> -->
+        <h1>Fammily and Friends Student book</h1>
+        <div class="flex-container">
+            <button onclick="changeFile(1)">1</button>
+            <button onclick="changeFile(2)">2</button>
+            <button onclick="changeFile(3)">3</button>
+            <button onclick="changeFile(4)">4</button>
+            <button onclick="changeFile(5)">5</button>
+            <button onclick="changeFile(6)">6</button>
+            <button onclick="changeFile(7)">7</button>
+            <button onclick="changeFile(8)">8</button>
+            <button onclick="changeFile(9)">9</button>
+            <button onclick="changeFile(10)">10</button>
+            <button onclick="changeFile(11)">11</button>
+            <button onclick="changeFile(12)">12</button>
+            <button onclick="changeFile(13)">13</button>
+            <button onclick="changeFile(14)">14</button>
+            <button onclick="changeFile(15)">15</button>
+            <button onclick="changeFile(16)">16</button>
+            <button onclick="changeFile(17)">17</button>
+            <button onclick="changeFile(18)">18</button>
+            <button onclick="changeFile(19)">19</button>
+            <button onclick="changeFile(20)">20</button>
+            <!-- <button onclick="changeFile(21)">21</button>
+            <button onclick="changeFile(22)">22</button>
+            <button onclick="changeFile(23)">23</button>
+            <button onclick="changeFile(24)">24</button>
+            <button onclick="changeFile(25)">25</button>
+            <button onclick="changeFile(26)">26</button>
+            <button onclick="changeFile(27)">27</button>
+            <button onclick="changeFile(28)">28</button>
+            <button onclick="changeFile(29)">29</button>
+            <button onclick="changeFile(30)">30</button>
+            <button onclick="changeFile(31)">31</button>
+            <button onclick="changeFile(32)">32</button>
+            <button onclick="changeFile(33)">33</button>
+            <button onclick="changeFile(34)">34</button>
+            <button onclick="changeFile(35)">35</button>
+            <button onclick="changeFile(36)">36</button>
+            <button onclick="changeFile(37)">37</button>
+            <button onclick="changeFile(38)">38</button>
+            <button onclick="changeFile(39)">39</button>
+            <button onclick="changeFile(40)">40</button>
+            <button onclick="changeFile(41)">41</button>
+            <button onclick="changeFile(42)">42</button>
+            <button onclick="changeFile(43)">43</button>
+            <button onclick="changeFile(44)">44</button>
+            <button onclick="changeFile(45)">45</button>
+            <button onclick="changeFile(46)">46</button>
+            <button onclick="changeFile(47)">47</button>
+            <button onclick="changeFile(48)">48</button>
+            <button onclick="changeFile(49)">49</button>
+            <button onclick="changeFile(50)">50</button>
+            <button onclick="changeFile(51)">51</button>
+            <button onclick="changeFile(52)">52</button>
+            <button onclick="changeFile(53)">53</button>
+            <button onclick="changeFile(54)">54</button>
+            <button onclick="changeFile(55)">55</button>
+            <button onclick="changeFile(56)">56</button>
+            <button onclick="changeFile(57)">57</button>
+            <button onclick="changeFile(58)">58</button>
+            <button onclick="changeFile(59)">59</button>
+            <button onclick="changeFile(60)">60</button> -->
+        </div>
+        <h1>Chuyển sách</h1>
+        <div class="flex-container">
+            <a href='/static/hangout3.html'>Hangout 3</a>
+            <a href='/static/ff1.html'>Family 1</a>
+            <a href='/static/900caugiaotiep.html'>900 Câu giao tiếp</a>
+        </div>
+        <script>
+            function changeFile(number) {
+                var num = 'track' + number;
+                // num = num.substr(num.length - 2,2);
+                var englishCdn = 'https://github.com/thanglamhuu/thanglamhuu.github.io/raw/master/2g/';
+
+                var url = englishCdn + num + ".mp3";
+                var audio = document.getElementById("aud");
+                audio.src = url;
+                audio.playbackRate = 0.8;
+                audio.play();
+            }
+        </script>
+    </body>
+</body>

@@ -1,0 +1,1 @@
+git init && git remote add origin  git@github.com:thanglamhuu/thanglamhuu.github.io.git && git add -A && git commit -m "update" && git push origin master --force

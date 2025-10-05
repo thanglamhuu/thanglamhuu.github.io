@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+
+    <h1>Nhạc Thúc Đẩy</h1>
+    <li><audio src="" controls id="audioPlayer" style='width:100%'>
+        Sorry, your browser doesn't support html5!
+    </audio>
+
+
+    <h6>Nhạc nhảy</h6>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=Rt3LWixbfQA" target="_blank">I don't care remix</a></li>
+        <li><a href="https://youtu.be/1SnvyHSRso0" target="_blank">I don't care</a></li>
+        <li><a href="https://www.youtube.com/watch?v=G83t6zH9Axk" target="_blank">I don't care vietsub</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Sj0DF0rRF18" target="_blank">Happy | The Minions song</a></li>
+        <li><a href="https://www.youtube.com/watch?v=i74tlP7G8_I" target="_blank">Crazy Frog - Last Christmas</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xw1y8mc5cWs" target="_blank">Baby Dance - Scooby Doo Pa Pa</a></li>
+        <li><a href="https://www.youtube.com/watch?v=EDWfasgIE94" target="_blank">TOCA TOCA - Fly Project</a></li>
+        <li><a href="https://www.youtube.com/watch?v=lXiZqSTREgw" target="_blank">GANGNAM STYLE (PSY)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=jjPlqrGv-lA" target="_blank">GANGNAM STYLE DANCE</a></li>
+        <li><a href="https://www.youtube.com/watch?v=8pFZ1-SuZ-M" target="_blank">Khởi động đầu giờ</a></li>
+        <li><a href="https://www.youtube.com/watch?v=czWcyZRAMtk" target="_blank">Shakira - Waka Waka (This Time For Africa) </a></li>
+        <li><a href="https://youtu.be/FzG4uDgje3M?si=Ufr8zXtgOaPjvCu9" target="_blank">Điệu đánh hông</a></li>
+        <li><a href="https://www.facebook.com/reel/586474840172479" target="_blank">Điệu VCON</a></li>
+        <li><a href="https://www.youtube.com/shorts/90sJN_1nBfw" target="_blank">Nhảy IN UP </a></li>
+        <li><a href="https://youtu.be/EYsjS_YkEHw?feature=shared" target="_blank">Nhảy IN UP 10 lần 1 nhịp</a></li>
+        <li><a href="https://www.youtube.com/watch?v=nk1pcVtqRNc" target="_blank">Những Bản Nhạc Dance Bất Hủ</a></li>
+        <li><a href="https://www.youtube.com/watch?v=n7y593k8RtU">Songs to Boost Your Mood</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ISlvIW4fNVQ" target="_blank">Best Feelings 🌻 Morning Songs for a Good Day</a></li>
+
+        <li><a href=""></a></li>
+    </ul>
+
+    Nhạc nhẹ
+    <ul id="playlist">
+        <li><a href="https://www.youtube.com/watch?v=5rE7jZgHJbc">Latika Music, Zen Music</a></li>
+    </ul>
+    <li><a href="https://www.youtube.com/watch?v=CkHfZauoNns&list=PLyFKLaGmyKc6g9tMI0g-cx9mLIOwndaUG">Khởi động tiết học</a></li>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

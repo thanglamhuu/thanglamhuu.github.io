@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <ul id="link">
+        <li><a href="../KinhDaiThuaVoLuongTho/p6_p32.html">Kinh Đại Thừa Vô Lượng Thọ</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho lặp</a></li>
+        <li><a href="../niem-phat/">Niệm Phật</a></li>
+        <li><a href="../niem-phat-thanh-phat/">Niệm Phật Thành Phật</a></li>
+    </ul>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li class="current-song"><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="../niem-phat/03_NiemPhatKinhHanhSuBaChuaNgoi.mp3">Niem Phat Kinh Hanh Su Ba Chua Ngoi</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="NiemPhatThanhPhat01.mp3">Niem Phat Thanh Phat 01</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="NiemPhatThanhPhat02_3.mp3">Niem Phat Thanh Phat 03 & 03</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="NiemPhatThanhPhat04.mp3">Niem Phat Thanh Phat 04</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="NiemPhatThanhPhat05.mp3">Niem Phat Thanh Phat 05</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="NiemPhatThanhPhat06.mp3">Niem Phat Thanh Phat 06</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="NiemPhatThanhPhat07_9.mp3">Niem Phat Thanh Phat 07 & 09</a></li>
+        <li><a href="../niem-phat/01_SuBaNiemPhat30Phut.mp3">Su Ba Niem Phat 30Phut</a></li>
+        <li><a href="../niem-phat/06_TPSTinhKhongNiemPhat.mp3">Pháp Sư Tịnh Không niệm Phật</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
