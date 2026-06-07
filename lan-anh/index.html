@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lan Anh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li class="current-song"><a href="hoc-van-dap/1-10.mp3">Câu 01-10</a></li>
+        <li class="current-song"><a href="hoc-van-dap/11-20.mp3">Câu 11-20</a></li>
+        <li class="current-song"><a href="hoc-van-dap/21-30.mp3">Câu 21-30</a></li>
+        <li class="current-song"><a href="hoc-van-dap/31-40.mp3">Câu 31-40</a></li>
+        <li class="current-song"><a href="hoc-van-dap/41-57.mp3">Câu 41-57</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
