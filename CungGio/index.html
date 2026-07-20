@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nghi thức cúng cơm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #audioS{
+            width: 100%;
+        }
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+            font-size: 14px;
+
+        }
+        #playlist .current-song a{
+            color:blue;
+            font-weight: bolder;
+            font-size: 16px;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <ul id="link">
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho</a></li>
+        <li><a href="../niem-phat/">Niệm Phật</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/p6_p32.html">Kinh Đại Thừa Vô Lượng Thọ</a></li>
+        <li><a href="../KinhDaiThuaVoLuongTho/">KinhDaiThuaVoLuongTho lặp</a></li>
+        </ul>
+    <p>Thâm nhập</p>
+    <audio src="" controls id="audioPlayer"  style="width: 100%;">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li  class="current-song"><a href="1.KhaiLe.MP3"> 1.KhaiLe </a></li>
+        <li  class="current-song"><a href="2.HuuKinhPhan.MP3"> 2.HuuKinhPhan </a></li>
+        <li  class="current-song"><a href="3.tanphatniemphat.MP3"> 3.tanphatniemphat </a></li>
+        <li  class="current-song"><a href="4.MoiCom.MP3"> 4.MoiCom </a></li>
+        <li  class="current-song"><a href="5.TungChuHoiHuong.MP3"> 5.TungChuHoiHuong </a></li>
+        <li  class="current-song"><a href="2.HuuKinhPhanx5.MP3"> 2.HuuKinhPhan x5</a></li>
+        <li  class="current-song"><a href="4.MoiComx5.MP3"> 4.MoiComx5 </a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="../audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
